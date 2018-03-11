@@ -33,10 +33,11 @@ function applyClasses() {
   var elementclasslist;
   for (var z=0; z<elementlist.length; z++) {
     elementclasslist = getClassOf(elementlist[z]);
+    if (elementclasslist != undefined) {
     for (var l=0; l<elementclasslist.length; l++) {
       if (classlist.indexOf(elementclasslist[l])!==-1) {
         applyClass(elementlist[z],classlist[classlist.indexOf(elementclasslist[l])+1]);
       }
-    }
+    }}
   }
 }
