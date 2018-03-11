@@ -9,7 +9,9 @@ function getClassOf(element) {
       classesofelement = element.attributes[i].value;
     }
   }
+  if (classesofelement != undefined) {
   return classesofelement.split(" ");
+  }
 }
 var classlist = [];
 
