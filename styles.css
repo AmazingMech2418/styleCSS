@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Nanum+Pen+Script|Orbitron|Pacifico|Permanent+Marker|Play|Press+Start+2P');
+.border-normal {
+border-width: 2px;
+}
+.border-small {
+border-width: 1px;
+}
+.border-large {
+border-width: 5px;
+}
+.border-dotted {
+border-style: dotted;
+}
+.border-double {
+border-style: double;
+}
+.border-solid {
+border-style: solid;
+}
+.round {
+border-radius: 8px;
+}
+.align-center {
+text-align: center;
+}
+.align-left {
+text-align: left;
+}
+.align-right {
+text-align: right;
+}
+.lobster {font-family: 'Lobster', cursive;}
+.pen {font-family: 'Nanum Pen Script', cursive;}
+.orbitron {font-family: 'Orbitron', sans-serif;}
+.pacifico {font-family: 'Pacifico', cursive;}
+.marker {font-family: 'Permanent Marker', cursive;}
+.play {font-family: 'Play', sans-serif;}
+.eightbit {font-family: 'Press Start 2P', cursive;}
+/* Credit to Google Fonts for the fonts */
