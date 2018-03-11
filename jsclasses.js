@@ -18,10 +18,12 @@ function newClass(name, info) {
   classlist.push(JSON.parse("info"));
 }
 // use the following variable set to set the node of the style tag to use for CSS edits.
-var stylenode = 0
+var stylenode = 0;
 function applyClass(el,c) {
   document.getElementsByTagName("style")[stylenode].innerHTML += el.tagName.toLowerCase() + " {" + c.innerCSS + "}";
+  if (c.classnames.length > 0) {
   el.setAttribute("class",c.classnames.join(" "));
+  }
 }
 
 function applyClasses() {
