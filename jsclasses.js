@@ -15,7 +15,7 @@ var classlist = [];
 
 function newClass(name, info) {
   classlist.push(name);
-  classlist.push(JSON.parse("info"));
+  classlist.push(JSON.parse(info));
 }
 // use the following variable set to set the node of the style tag to use for CSS edits.
 var stylenode = 0;
